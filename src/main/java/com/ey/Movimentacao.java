@@ -33,6 +33,11 @@ public class Movimentacao {
 
     // ----- Contructor & Getters & Setters
 
+    public Movimentacao(Integer quantidade, Bebida bebida) {
+        this.quantidade = quantidade;
+        this.bebida = bebida;
+    }
+
     /**
      * @param quantidade
      */
@@ -74,5 +79,11 @@ public class Movimentacao {
 
     public void setBebida(Bebida bebida) {
         this.bebida = bebida;
+    }
+
+    @Override
+    public String toString() {
+        return "Movimentacao [bebida=" + bebida + ", id=" + id + ", quantidade=" + quantidade
+                + "]";
     }
 }

@@ -102,6 +102,12 @@ public class Estabelecimento {
 
     public void setComandas(List<Comanda> comandas) {
         this.comandas = comandas;
+    }
+
+    @Override
+    public String toString() {
+        return "Estabelecimento [cnpj=" + cnpj + ", comandas=" + comandas + ", descricao=" + descricao + ", id=" + id
+                + ", nome=" + nome + ", telefone=" + telefone + "]";
     } 
     
 }

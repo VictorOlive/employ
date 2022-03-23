@@ -88,5 +88,11 @@ public class Bebida {
     public void setValor(Double valor) {
         this.valor = valor;
     }
+
+    @Override
+    public String toString() {
+        return "Bebida [estilo=" + estilo + ", id=" + id + ", marca=" + marca + ", subEstilo=" + subEstilo + ", valor="
+                + valor + "]";
+    }
     
 }
