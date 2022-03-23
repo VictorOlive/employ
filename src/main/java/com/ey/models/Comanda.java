@@ -1,4 +1,4 @@
-package com.ey;
+package com.ey.models;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -19,11 +19,11 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "tb_comanda")
 public class Comanda {
-    
+
     @Id
-    @SequenceGenerator(name = "comanda", sequenceName = "sq_tb_comanda" , allocationSize = 1)
+    @SequenceGenerator(name = "comanda", sequenceName = "sq_tb_comanda", allocationSize = 1)
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "comanda")
-    @Column(name = "id_comanda" , length = 9)
+    @Column(name = "id_comanda", length = 9)
     private Integer id;
 
     @Column(name = "nm_plano", length = 8)
@@ -41,7 +41,7 @@ public class Comanda {
     @Column(name = "dt_insercao")
     private LocalDateTime data = LocalDateTime.now();
 
-    @OneToMany(mappedBy = "comanda", cascade = {CascadeType.ALL})
+    @OneToMany(mappedBy = "comanda", cascade = { CascadeType.ALL })
     private List<Movimentacao> movimentacoes = new ArrayList<>();
 
     @ManyToOne
@@ -50,16 +50,12 @@ public class Comanda {
     @ManyToOne(fetch = FetchType.EAGER)
     private Consumidor consumidor;
 
-    public Comanda(Integer id, String nome, String descricao, Integer numero, Double valor, LocalDateTime data,
-            List<Movimentacao> movimentacoes) {
-        this.id = id;
-        this.nome = nome;
-        this.descricao = descricao;
-        this.numero = numero;
-        this.valor = valor;
-        this.data = data;
-        this.movimentacoes = movimentacoes;
-    }
+        // ----- Contructor & Getters & Setters
+    /**
+     * @param estabelecimento
+     * @param consumidor
+     * @param numero
+     */
 
     public Comanda(Estabelecimento estabelecimento, Consumidor consumidor, Integer numero) {
         this.estabelecimento = estabelecimento;
@@ -67,35 +63,28 @@ public class Comanda {
         this.numero = numero;
     }
 
-    // ----- Contructor & Getters & Setters
-    /**
-     * @param nome
-     * @param descricao
-     * @param numero
-     * @param valor
-     */
-    public Comanda(String nome, String descricao, Integer numero, Double valor) {
-        this.nome = nome;
-        this.descricao = descricao;
-        this.numero = numero;
-        this.valor = valor;
+    public Comanda() {
+
     }
 
-    public Comanda (){
-        
-    }
-
-    public void addMovimentacao(Movimentacao movimentacao){
+    public void addMovimentacao(Movimentacao movimentacao) {
         this.movimentacoes.add(movimentacao);
         movimentacao.setComanda(this);
-        this.setValor(this.getValor() + movimentacao.getQuantidade() * movimentacao.getBebida().getValor());
+        this.setValor(
+                this.getValor()
+                        +
+                        (movimentacao.getQuantidade() * movimentacao.getBebida().getValor()));
     }
 
-    public void removeMovimentacao(Movimentacao movimentacao){
+    public void removeMovimentacao(Movimentacao movimentacao) {
         this.movimentacoes.remove(movimentacao);
         movimentacao.setComanda(null);
+        this.setValor(
+            this.getValor()
+                    -
+                    (movimentacao.getQuantidade() * movimentacao.getBebida().getValor()));
     }
-    
+
     public Integer getId() {
         return this.id;
     }
@@ -144,7 +133,6 @@ public class Comanda {
         this.data = data;
     }
 
-    
     public Consumidor getConsumidor() {
         return this.consumidor;
     }
@@ -152,7 +140,7 @@ public class Comanda {
     public void setConsumidor(Consumidor consumidor) {
         this.consumidor = consumidor;
     }
-    
+
     public Estabelecimento getEstabelecimento() {
         return this.estabelecimento;
     }

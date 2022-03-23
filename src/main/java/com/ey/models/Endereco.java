@@ -1,4 +1,4 @@
-package com.ey;
+package com.ey.models;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
