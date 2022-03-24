@@ -4,7 +4,6 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 import javax.persistence.EntityManager;
-import javax.persistence.Tuple;
 
 import com.ey.models.Bebida;
 import com.ey.models.Consumidor;
@@ -26,6 +25,9 @@ public class ConsumidorDAO extends GenericDAO<Consumidor, Integer> {
                 .setMaxResults(1)
                 .getResultList();
 
+        if (ultimaVisita.isEmpty()) {
+                return null; 
+        }
         return ultimaVisita.get(0);
     }
 
@@ -39,6 +41,10 @@ public class ConsumidorDAO extends GenericDAO<Consumidor, Integer> {
                 .setParameter("id", estabelecimento.getId())
                 .getResultList();
 
+        if (frequencia.isEmpty()) {
+                return 0l; 
+        }
+
         return frequencia.get(0);
     }
 
@@ -50,6 +56,10 @@ public class ConsumidorDAO extends GenericDAO<Consumidor, Integer> {
                 .setParameter("celular", "62989290243")
                 .setParameter("id", 1)
                 .getResultList();
+
+        if (ticketMedio.isEmpty()){
+                return 0.0d;
+        }
 
         return ticketMedio.get(0);
 
@@ -67,7 +77,11 @@ public class ConsumidorDAO extends GenericDAO<Consumidor, Integer> {
                 .getResultList();
 
 
-                Bebida bebidaFavorita = em.find(Bebida.class, bebidaFavorita_id.get(0));
+        if (bebidaFavorita_id.isEmpty()){
+                return null;
+        }
+        
+        Bebida bebidaFavorita = em.find(Bebida.class, bebidaFavorita_id.get(0));
 
         return bebidaFavorita;
     }
