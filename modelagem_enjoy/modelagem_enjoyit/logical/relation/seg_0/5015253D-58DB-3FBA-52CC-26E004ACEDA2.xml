@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possuirv1" directorySegmentName="seg_0" id="5015253D-58DB-3FBA-52CC-26E004ACEDA2">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-20 21:21:51 UTC</createdTime>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<engineerTo>
+<item key="D2B69CC4-9546-4FA2-66B2-3F572B9E84F1" value="true"/>
+</engineerTo>
+<sourcePk>AD370C4E-6E41-9910-C5AE-2A6E64C604B8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>799E1B34-CDB0-EE83-01A0-4D9965609FB8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DC35096B-DF43-8529-1EDB-5BB393E0D0BC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

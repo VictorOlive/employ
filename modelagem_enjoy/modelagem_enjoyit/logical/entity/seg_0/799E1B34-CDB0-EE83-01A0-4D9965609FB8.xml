@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="799E1B34-CDB0-EE83-01A0-4D9965609FB8" name="TB_CONSUMIDOR">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-20 17:45:25 UTC</createdTime>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<engineerTo>
+<item key="D2B69CC4-9546-4FA2-66B2-3F572B9E84F1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_consumidor" id="7F9057C4-49B2-E48E-A293-027CFA7A8459">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-20 17:45:47 UTC</createdTime>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<engineerTo>
+<item key="D2B69CC4-9546-4FA2-66B2-3F572B9E84F1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_endereco" id="3F7AAA5F-B90A-E056-1556-CFB9194C996D">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-20 18:39:01 UTC</createdTime>
+<generatorID>859EBC51-ACEF-4704-989A-2FB1E81A8365</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<engineerTo>
+<item key="D2B69CC4-9546-4FA2-66B2-3F572B9E84F1" value="true"/>
+</engineerTo>
+<referedAttribute>F53FA53B-FD28-312F-7DD3-ACBD5B0E10DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_completo_celular" id="E60B227A-88BD-6526-83A8-F7BFDCCBC14E">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-20 17:57:11 UTC</createdTime>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<engineerTo>
+<item key="D2B69CC4-9546-4FA2-66B2-3F572B9E84F1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_completo" id="2C915DCD-D241-8BB3-7A9D-ACED2B955908">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-20 17:46:08 UTC</createdTime>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<engineerTo>
+<item key="D2B69CC4-9546-4FA2-66B2-3F572B9E84F1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="1F233CEC-DC4C-2B76-9C6A-7F9CDCAA0DC0">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-20 17:46:33 UTC</createdTime>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<engineerTo>
+<item key="D2B69CC4-9546-4FA2-66B2-3F572B9E84F1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="C81C244E-CD6B-D91F-BC41-114D6A8C78D2">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-20 17:46:48 UTC</createdTime>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<engineerTo>
+<item key="D2B69CC4-9546-4FA2-66B2-3F572B9E84F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_genero" id="DBD89647-DF81-4A2A-3413-267FF184334C">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-20 17:47:08 UTC</createdTime>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<engineerTo>
+<item key="D2B69CC4-9546-4FA2-66B2-3F572B9E84F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="BD287FAE-9ADB-A7B5-3B3A-6561BD69390B">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-20 17:47:23 UTC</createdTime>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<engineerTo>
+<item key="D2B69CC4-9546-4FA2-66B2-3F572B9E84F1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AD370C4E-6E41-9910-C5AE-2A6E64C604B8" name="TB_CLIENTE PK">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-20 17:46:06 UTC</createdTime>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<engineerTo>
+<item key="D2B69CC4-9546-4FA2-66B2-3F572B9E84F1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7F9057C4-49B2-E48E-A293-027CFA7A8459</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

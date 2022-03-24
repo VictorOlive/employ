@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8C1DCE8C-0820-9A39-1017-034087FA1DF4" containerWithKeyObject="B8314A6A-AFF4-2C04-962D-E1730B614998" localFKIndex="6B7CA8F6-9E34-C8D8-5D64-01A0AB646DF4" name="TB_COMANDA_TB_ESTABELECIMENTO_FK">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>96A7E3E6-BB70-05DD-67AD-00E3988C80D7</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<referredTableLongName>TB_ESTABELECIMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B0984037-D4A7-83D1-C3E9-2AE0EB46C914</referredTableID>
+<keyObject>86CE29D0-BA88-F276-DA3B-BA59EEE13166</keyObject>
+<referredKeyID>86CE29D0-BA88-F276-DA3B-BA59EEE13166</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_estabelecimento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

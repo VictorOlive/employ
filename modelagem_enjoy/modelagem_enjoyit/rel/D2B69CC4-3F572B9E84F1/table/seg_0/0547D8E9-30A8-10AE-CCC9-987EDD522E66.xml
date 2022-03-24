@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0547D8E9-30A8-10AE-CCC9-987EDD522E66" name="TB_CONSUMIDOR">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>799E1B34-CDB0-EE83-01A0-4D9965609FB8</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_consumidor" id="5ED8D9CD-255B-5F47-5561-3E17D83DEF44">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>7F9057C4-49B2-E48E-A293-027CFA7A8459</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_ENDERECO_id_endereco" id="E745AD9D-23B0-64B9-AC69-C1C0AE6C2C63">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>3F7AAA5F-B90A-E056-1556-CFB9194C996D</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB7B7C4D-2B33-099F-8B34-F7B9CEAC2A71" referredColumn="D10EEDB2-6111-699F-2DAF-DFF79103A1E9"/>
+</associations>
+</Column>
+<Column name="nr_completo_celular" id="BE8C0885-693B-99ED-3BB4-2B18286346B3">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>E60B227A-88BD-6526-83A8-F7BFDCCBC14E</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_completo" id="FAD6A70B-5A1B-FB2F-2136-9E108BA65AAF">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>2C915DCD-D241-8BB3-7A9D-ACED2B955908</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="51CE5D94-331D-5EDF-4103-D217CFBEC968">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>1F233CEC-DC4C-2B76-9C6A-7F9CDCAA0DC0</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="36077AE9-8277-DE8E-5318-8BCC4B7DCF16">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>C81C244E-CD6B-D91F-BC41-114D6A8C78D2</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_genero" id="43647AB7-CC80-050B-D188-FE8E41A67394">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>DBD89647-DF81-4A2A-3413-267FF184334C</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="505FF444-6717-4051-2EDF-E9827BD227C6">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>BD287FAE-9ADB-A7B5-3B3A-6561BD69390B</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21A021BC-5550-D434-CB8B-8E3FE4BD2D13" name="TB_CONSUMIDOR_PK">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>AD370C4E-6E41-9910-C5AE-2A6E64C604B8</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ED8D9CD-255B-5F47-5561-3E17D83DEF44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D408D547-19C4-5A35-2E5F-A43C0EDA0583" name="TB_CONSUMIDOR_TB_ENDERECO_FK">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>859EBC51-ACEF-4704-989A-2FB1E81A8365</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E745AD9D-23B0-64B9-AC69-C1C0AE6C2C63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

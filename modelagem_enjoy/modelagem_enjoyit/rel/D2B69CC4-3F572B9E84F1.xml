@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="D2B69CC4-9546-4FA2-66B2-3F572B9E84F1" mainViewID="16564757-0C63-39F0-F56A-6817619F0A5C">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-20 17:39:22 UTC</createdTime>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

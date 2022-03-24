@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0984037-D4A7-83D1-C3E9-2AE0EB46C914" name="TB_ESTABELECIMENTO">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>26DBC627-D61E-C260-BAD1-61A8AC10484D</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estabelecimento" id="07230B0B-0E7B-E20B-51EE-5F476246BE82">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>45745C32-C9A2-DF32-C03D-2EBF194CF977</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estabelecimento" id="FCAAF22F-C974-CB04-3858-1EE0C7A64395">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>13365242-CC62-0840-DA15-68F8B2B71D22</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cnpj" id="C38CD79B-8FF5-0663-0003-5855260D55E1">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>B0DA65A4-1F10-4BC7-EF7E-6C00CBED84ED</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_completo_telefone" id="CE45A6EB-B389-0316-F4BE-2878F3AF3853">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>A4C762D2-AC3A-9F42-C3EB-9BBBAFBFA3DB</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="A6A61B89-93E8-9B08-652F-FC0BB856430F">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>EC486865-0D12-E556-F313-9996048FD6E9</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86CE29D0-BA88-F276-DA3B-BA59EEE13166" name="TB_ESTABELECIMENTO_PK">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>0B549A30-CC39-28C4-AB8E-7E9C44DE3CE9</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07230B0B-0E7B-E20B-51EE-5F476246BE82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

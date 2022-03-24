@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8314A6A-AFF4-2C04-962D-E1730B614998" name="TB_COMANDA">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>DC35096B-DF43-8529-1EDB-5BB393E0D0BC</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_comanda" id="A8161DE9-D452-0A3B-291F-491FA67CD6AA">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>FA18C335-7741-34C9-7404-E1D5D4F3493B</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_CONSUMIDOR_id_consumidor" id="5870E63C-3B0D-6685-18C5-17A86DD4516C">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>1F0D387D-2FE8-2A29-7697-9D3353202556</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CB0DD1A-E7D8-EE89-5164-3D4EDC098628" referredColumn="5ED8D9CD-255B-5F47-5561-3E17D83DEF44"/>
+</associations>
+</Column>
+<Column name="TB_ESTABELECIMENTO_id_estabelecimento" id="A8AFCC5B-1E0C-E331-30D3-C84C056F1A6B">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>B9BBB8DF-4FBF-42AA-0A31-90332757025D</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C1DCE8C-0820-9A39-1017-034087FA1DF4" referredColumn="07230B0B-0E7B-E20B-51EE-5F476246BE82"/>
+</associations>
+</Column>
+<Column name="nm_plano" id="006CB2D6-79AC-53F8-3331-ABBD8400D199">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>43CE5BF5-8686-5DE1-971E-42CCEAF49FF1</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_metodo_pagamento" id="5FE73988-D5D9-708C-F3A8-CDAA467D4297">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>3211746F-4001-C8BD-FA2E-C8E0F2415C39</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_comanda" id="1E0645ED-73EE-EE7A-5C89-AD2DCB8A28BF">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>C3D42D27-3514-239B-EED3-456EF83C895E</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_comanda" id="3B7025A6-E5F2-1FF2-6AC5-482415D8D9DE">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>59F51976-73CC-1688-F472-8D72F85FB5B4</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_insercao" id="8EEBF164-BD5D-13AC-F0E8-DA8B37CA3D52">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>114020CB-95FE-95C8-4086-467F596F8835</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="320E118F-8294-19B7-3EE9-B5CDCBA66702" name="TB_COMANDA_PK">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>15385879-EF06-446D-2836-5C353E71B11B</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8161DE9-D452-0A3B-291F-491FA67CD6AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23CC4763-4013-887E-743F-2A3B3343B195" name="TB_COMANDA_TB_CONSUMIDOR_FK">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>5015253D-58DB-3FBA-52CC-26E004ACEDA2</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5870E63C-3B0D-6685-18C5-17A86DD4516C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B7CA8F6-9E34-C8D8-5D64-01A0AB646DF4" name="TB_COMANDA_TB_ESTABELECIMENTO_FK">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>96A7E3E6-BB70-05DD-67AD-00E3988C80D7</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8AFCC5B-1E0C-E331-30D3-C84C056F1A6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

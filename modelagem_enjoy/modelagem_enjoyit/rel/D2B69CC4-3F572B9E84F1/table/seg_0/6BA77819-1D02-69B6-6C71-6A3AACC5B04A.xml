@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6BA77819-1D02-69B6-6C71-6A3AACC5B04A" name="TB_BEBIDA">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>38B5A315-09EC-D8AD-A726-59125F49CC94</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_bebida" id="563B0911-EF0A-A419-FD3C-EDF0EDB281B8">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>D1C1ADDF-29D0-307D-E1F9-264737461951</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estilo_bebida" id="842908D9-2D40-1850-B27D-5D80B792A477">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>9F1FBD4A-EE31-16AF-B4FA-D5140115F960</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_subestilo_bebida" id="C51E9E16-5129-FF8A-BA22-6870B55DC00B">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>5BFDA401-230C-B869-413A-DE0FC74908CA</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_marca_bebida" id="77606B4A-08C5-90F3-4183-E15BADA3C179">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>AE2B4436-5363-2373-0073-F970AEBD00EE</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_bebida" id="32828C72-C6A2-6E2F-2415-682BFF4F92AB">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>2C47ED0A-1681-B782-4150-D82C10CD919B</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9D9CD5A-D7E3-901A-5F71-420076F3E3C5" name="TB_BEBIDA_PK">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>23D7475B-0AA2-0BCE-D2F3-18CE6A067CA9</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="563B0911-EF0A-A419-FD3C-EDF0EDB281B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

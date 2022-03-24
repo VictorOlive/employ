@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C13C3D50-4B50-BBBB-21B6-33826D7E9AF2" containerWithKeyObject="81BABE9F-AA7C-DF82-976A-7983396C0439" localFKIndex="A27D532E-B57C-FB82-F53D-6A23CAA42E13" name="TB_MOVIMENTACAO_TB_COMANDA_FK">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>E2166600-3E80-E003-6638-C5F30FF328CC</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<referredTableLongName>TB_COMANDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B8314A6A-AFF4-2C04-962D-E1730B614998</referredTableID>
+<keyObject>320E118F-8294-19B7-3EE9-B5CDCBA66702</keyObject>
+<referredKeyID>320E118F-8294-19B7-3EE9-B5CDCBA66702</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_comanda</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

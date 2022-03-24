@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0CB0DD1A-E7D8-EE89-5164-3D4EDC098628" containerWithKeyObject="B8314A6A-AFF4-2C04-962D-E1730B614998" localFKIndex="23CC4763-4013-887E-743F-2A3B3343B195" name="TB_COMANDA_TB_CONSUMIDOR_FK">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>5015253D-58DB-3FBA-52CC-26E004ACEDA2</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<referredTableLongName>TB_CONSUMIDOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0547D8E9-30A8-10AE-CCC9-987EDD522E66</referredTableID>
+<keyObject>21A021BC-5550-D434-CB8B-8E3FE4BD2D13</keyObject>
+<referredKeyID>21A021BC-5550-D434-CB8B-8E3FE4BD2D13</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_consumidor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

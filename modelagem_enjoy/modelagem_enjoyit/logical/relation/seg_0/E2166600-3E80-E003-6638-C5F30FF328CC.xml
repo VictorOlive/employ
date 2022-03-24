@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ter" directorySegmentName="seg_0" id="E2166600-3E80-E003-6638-C5F30FF328CC">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-20 21:31:28 UTC</createdTime>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<engineerTo>
+<item key="D2B69CC4-9546-4FA2-66B2-3F572B9E84F1" value="true"/>
+</engineerTo>
+<sourcePk>15385879-EF06-446D-2836-5C353E71B11B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DC35096B-DF43-8529-1EDB-5BB393E0D0BC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E1ADE830-0F2B-E9C8-9EA5-619718A1F378</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

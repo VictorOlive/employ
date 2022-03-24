@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="FC95D9D0-43C6-89DE-80A0-C4EE302ED45B" mainViewID="C2EA10EE-A508-950F-7B9D-2C65984184A0">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-20 17:39:20 UTC</createdTime>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

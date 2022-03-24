@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0E53E3AC-0A5A-EDDD-6754-8D6C371A1798" containerWithKeyObject="81BABE9F-AA7C-DF82-976A-7983396C0439" localFKIndex="DEF3F6B0-73DC-9F23-6633-D0AD1AA1F535" name="TB_MOVIMENTACAO_TB_BEBIDA_FK">
+<createdBy>RAISSA</createdBy>
+<createdTime>2022-03-24 22:20:06 UTC</createdTime>
+<generatorID>1966C5AC-C0B4-8E18-D254-8DACA5B25457</generatorID>
+<ownerDesignName>modelagem_enjoyit</ownerDesignName>
+<referredTableLongName>TB_BEBIDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6BA77819-1D02-69B6-6C71-6A3AACC5B04A</referredTableID>
+<keyObject>A9D9CD5A-D7E3-901A-5F71-420076F3E3C5</keyObject>
+<referredKeyID>A9D9CD5A-D7E3-901A-5F71-420076F3E3C5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_bebida</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
